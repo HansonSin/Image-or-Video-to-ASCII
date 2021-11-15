@@ -2,8 +2,8 @@
 written in Python 3.8
 
 module needed:  
-[PIL](https://pypi.org/project/Pillow/)  
-[cv2](https://pypi.org/project/opencv-python/)  
+- [PIL](https://pypi.org/project/Pillow/)  
+- [cv2](https://pypi.org/project/opencv-python/)  
 
 change the variables needed:
 - FRAME_SIZE
