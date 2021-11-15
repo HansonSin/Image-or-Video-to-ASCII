@@ -1,5 +1,4 @@
 from PIL import Image
-from pynput.keyboard import Key, Controller
 
 ASCII_CHARS = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^`\'.⠀'
 FRAME_SIZE = (36, 11) # (width, height)
