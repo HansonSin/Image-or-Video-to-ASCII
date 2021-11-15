@@ -28,5 +28,5 @@ def convert_ascii(img):
     return "\n".join(asciiout)
 
 f = open("output.txt", "w", encoding="utf-8")
-f.write(convert_ascii(Image.open("D:/Users/Dell/Hanson/Pictures/ACGN/genshin impact/hutao cat.jpeg")))
+f.write(convert_ascii(Image.open(IMAGE_FILEPATH)))
 f.close()
