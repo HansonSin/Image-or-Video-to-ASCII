@@ -23,7 +23,7 @@ def grayscale(img):
     return img.convert("L")
 
 def convert_ascii(img):
-    global SIZE
+    global FRAME_SIZE
     img = grayscale(resize(img))
     imgpix = list(img.getdata())
     chars = [ASCII_CHARS[int(pixel/3.69)] for pixel in imgpix]
@@ -36,7 +36,6 @@ frame = []
 timenow = 0
 outputfile = open("output.txt", "w", encoding="utf-8")
 while timenow <= VIDEO_LENGTH*1000:
-    print(timenow)
     vid.set(0, timenow)
     success, img = vid.read()
     if success:
